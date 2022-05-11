@@ -1,13 +1,27 @@
 
 public interface ICalculadora {
-	public interface ICalculator {
-
-		public int sumar(int a, int b);
-
-		public int restar(int a, int b);
-		
-		public int multiplicar(int a, int b);
-		
-		public int dividir(int a, int b);
-	}
+	/**
+	 * Suma 2 numeros
+	 * @return resultado de la suma
+	 */
+	public int suma();
+	
+	/**
+	 * Resta 2 numeros
+	 * @return resultado de la resta
+	 */
+	public int resta();
+	
+	/**
+	 * Multiplica 2 numeros
+	 * @return resultado de la multiplicacion
+	 */	
+	public int multiplicar();
+	
+	/**
+	 * Dividir 2 numeros
+	 * @return resultado de la division
+	 */	
+	public int dividir();
+	
 }

@@ -1,38 +1,38 @@
 
 public class Calculadora implements ICalculadora {
+	private int num1;
+	private int num2;
+	
+
 	/**
-	 * @param a primer numero
-	 * @param b segundo numero
-	 * @return a+b suma de los numeros
+	 * Constructor completo de Calculadora
+	 * @param num1 primer numero
+	 * @param num2 segundo numero
 	 */
-	public int suma (int a, int b) {
-		return a+b;
+	public Calculadora(int num1, int num2) {
+		this.num1 = num1;
+		this.num2 = num2;
+	}
+
+	public int suma () {
+		int resultado = this.num1+this.num2;
+		return resultado;
 	}
 	
-	/**
-	 * @param a primer numero
-	 * @param b segundo numero
-	 * @return a-b resta del primer al segundo numero
-	 */
-	public int resta (int a, int b) {
-		return a-b;
+	public int resta () {
+		int resultado = this.num1-this.num2;
+		return resultado;
 	}
 	
-	/**
-	 * @param a primer numero
-	 * @param b segundo numero
-	 * @return a+b multiplicación de los numeros
-	 */
-	public int multiplicar(int a, int b) {
-		return a*b;
+	
+	public int multiplicar() {
+		int resultado = this.num1*this.num2;
+		return resultado;
 	}
 	
-	/**
-	 * @param a primer numero
-	 * @param b segundo numero
-	 * @return a+b división de los numeros
-	 */
-	public int dividir(int a, int b) {
-		return a/b;
+	public int dividir() {
+		int resultado = this.num1/this.num2;
+		return resultado;
 	}
+
 }
