@@ -111,5 +111,5 @@ class CalculadoraTest {
 ![image](https://user-images.githubusercontent.com/91600940/168426639-4537d44d-c057-4160-b7d5-f1935a31e209.png)
 
 ## Diagrama de las ramas del proyecto
-Decidimos utilizar esta segunda rama *develop* para hacer cambios en la estructura de las clase e interfaz debido a que nos dimos cuenta que no estaba del todo bien enfocada en un primer momento, y ya de paso probar los tests de JUnit.
+Decidimos utilizar esta segunda rama *develop* para hacer cambios en la estructura de las clase e interfaz debido a que nos dimos cuenta que no estaba del todo bien enfocada en un primer momento, además de ya hacer los test de JUnit.<br>
 ![image](https://user-images.githubusercontent.com/91600940/168426822-b09b5dc2-fad0-463f-bba5-29355e3193bc.png)
