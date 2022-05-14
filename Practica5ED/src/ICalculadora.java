@@ -2,12 +2,28 @@
 public interface ICalculadora {
 	public interface ICalculator {
 
-		public int sumar(int a, int b);
+		/**
+		 * Metodo sumar. Suma el primer numero con el segundo.
+		 * @return resultado de la suma en formato integer.
+		 */
+		public int sumar();
 
-		public int restar(int a, int b);
+		/**
+		 * Metodo restar. Resta el primer numero con el segundo.
+		 * @return resultado de la resta en formato integer.
+		 */
+		public int restar();
 		
-		public int multiplicar(int a, int b);
+		/**
+		 * Metodo multiplicar. Multiplica el primer numero con el segundo.
+		 * @return resultado de la multiplicacion en formato integer.
+		 */
+		public int multiplicar();
 		
-		public int dividir(int a, int b);
+		/**
+		 * Metodo dividir. Divide el primer numero con el segundo.
+		 * @return resultado de la división en formato double.
+		 */
+		public double dividir();
 	}
 }
