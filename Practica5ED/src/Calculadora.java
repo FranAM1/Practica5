@@ -13,22 +13,22 @@ public class Calculadora implements ICalculadora {
 		this.numero2 = numero2;
 	}
 	
-	public int suma () {
+	public int sumar () {
 		return this.numero1+this.numero2;
 	}
 	
 	
-	public int resta (int a, int b) {
+	public int restar () {
 		return this.numero1-this.numero2;
 	}
 	
 	
-	public int multiplicar(int a, int b) {
+	public int multiplicar() {
 		return this.numero1*this.numero2;
 	}
 	
 
-	public double dividir(int a, int b) {
-		return this.numero1/this.numero2;
+	public double dividir() {
+		return (double)this.numero1/this.numero2;
 	}
 }

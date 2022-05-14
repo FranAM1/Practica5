@@ -1,6 +1,5 @@
 
 public interface ICalculadora {
-	public interface ICalculator {
 
 		/**
 		 * Metodo sumar. Suma el primer numero con el segundo.
@@ -25,5 +24,4 @@ public interface ICalculadora {
 		 * @return resultado de la división en formato double.
 		 */
 		public double dividir();
-	}
 }
